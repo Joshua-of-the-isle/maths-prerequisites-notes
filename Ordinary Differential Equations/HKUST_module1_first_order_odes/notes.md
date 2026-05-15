@@ -26,7 +26,7 @@ We classify the equations on three axes
 
 ###### Examples:
 
-$ \frac{d^2y}{dt^2} + \sin (t+y) = \sin t$ : Ordinary, Second degree, nonlinear
+$\frac{d^2y}{dt^2} + \sin (t+y) = \sin t$ : Ordinary, Second degree, nonlinear
 
 $\frac{\partial^3 y}{\partial t^3} + \frac{\partial^2 y}{\partial t^2} + \frac{\partial y}{\partial t}=1$ : Partial, Third degree, linear
 
@@ -42,9 +42,9 @@ working:
 
 2. Now calculate slope $\frac{dy}{dx}=f(x_n,y_n)$ based on IVP $y(x_n)=y_n$
 
-3. Now since slope = $\frac{\Delta y}{\Delta x}$ therefore multiplying it with $\Delta x $ will give $\Delta y$
+3. Now since slope = $\frac{\Delta y}{\Delta x}$ therefore multiplying it with $\Delta x$ will give $\Delta y$
 
-4. So new values are $ x_{n+1}=x_n +\Delta x$ & $y_{n+1}=y_n+\Delta x , f(x_n,y_n)$
+4. So new values are $x_{n+1}=x_n +\Delta x$ & $y_{n+1}=y_n+\Delta x , f(x_n,y_n)$
 
 #### Midpoint method
 
@@ -54,7 +54,7 @@ working:
 
 1. Choose $\Delta x$
 
-2. Calculate $ x_{n+1}, y_{n+1}$ as usual
+2. Calculate $x_{n+1}, y_{n+1}$ as usual
 
 3. Now calculate new $\Delta y_{\text{new}} = \Delta x , f\left(x_n +\frac{\Delta x}{2}, ; y_n+\frac{\Delta y}{2} \right) $
 
@@ -69,7 +69,7 @@ Intuition: It basically calculates the average of the start slope and end slope,
 Use Euler’s method to estimate the value at $x = 1.5$ of the solution of  
 $\frac {dy}{dx}= F(x, y) = y^2 - x^2 ; \text{for which} ; y(0) = -1$. Use step size $h = 0.5$ *(From MIT OCW 18.03sc Numerical methods module)*
 
-*Step Size ($\Delta x$): $0.5$, Differential Equation: $\frac{dy}{dx} = y^2 - x^2$, Initial Point: $y(0) = -1$*
+Step Size ( $\Delta x$ ): $0.5$ , Differential Equation: $\frac{dy}{dx} = y^2 - x^2 $ , Initial Point: $y(0) = -1$ 
 
 | **#** | **x** | **y**  | **Slope ($y^2-x^2$)**               | **$\Delta y=\Delta x\cdot \text{Slope}$** |
 | ----- | ----- | ------ | ----------------------------------- | ----------------------------------------- |
@@ -114,11 +114,11 @@ We need to find an integrating factor $\mu(x)$ such that multiplying both sides 
 
 $(1+x^2)y'+2xy=2x ; \text{with} ; y(0)=0$
 
-$ \text{rearranging we get } y'+\frac{2x}{1+x^2}y=\frac{2x}{1+x^2}$
+$\text{rearranging we get } y'+\frac{2x}{1+x^2}y=\frac{2x}{1+x^2}$
 
 $\mu(x) = e^{\int \frac{2x}{1+x^2} , dx}$
 
-$ \frac{d}{dx}\ln(1+x^2) = \frac{2x}{1+x^2}$
+$\frac{d}{dx}\ln(1+x^2) = \frac{2x}{1+x^2}$
 
 $\text{Therefore } \mu(x) = e^{\ln(1+x^2)}=1+x^2$
 
