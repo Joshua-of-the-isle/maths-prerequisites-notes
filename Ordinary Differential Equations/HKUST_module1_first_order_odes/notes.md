@@ -12,7 +12,7 @@
 
 #### Q: What are differential equations?
 
-Differential equations are any equations that involve an infinitesimal rate of change in one of their sides, they're like ordinary algebraic equations but they contain a derivative which is what makes it tricky. A usual algebraic equation for say interest rate would be something like this   $ A = \left(1 + \frac{r}{100}\right)^t \times \text{initial amount} $  while a differential equation would basically involve taking the $t$ to the limit and assuming that compounding was continuous and get   $\frac{dA}{dt} = rA$  which could then be simplified to get the formula for $A(t)$.
+Differential equations are any equations that involve an infinitesimal rate of change in one of their sides, they're like ordinary algebraic equations but they contain a derivative which is what makes it tricky. A usual algebraic equation for say interest rate would be something like this   $A = \left(1 + \frac{r}{100}\right)^t \times \text{initial amount}$  while a differential equation would basically involve taking the $t$ to the limit and assuming that compounding was continuous and get   $\frac{dA}{dt} = rA$  which could then be simplified to get the formula for $A(t)$.
 
 #### Classification of differential equations
 
@@ -69,7 +69,7 @@ Intuition: It basically calculates the average of the start slope and end slope,
 Use Euler’s method to estimate the value at $x = 1.5$ of the solution of  
 $\frac {dy}{dx}= F(x, y) = y^2 - x^2 ; \text{for which} ; y(0) = -1$. Use step size $h = 0.5$ *(From MIT OCW 18.03sc Numerical methods module)*
 
-Step Size ( $\Delta x$ ): $0.5$ , Differential Equation: $\frac{dy}{dx} = y^2 - x^2 $ , Initial Point: $y(0) = -1$ 
+Step Size ( $\Delta x$ ): $0.5$ , Differential Equation: $\frac{dy}{dx} = y^2 - x^2$ , Initial Point: $y(0) = -1$ 
 
 | **#** | **x** | **y**  | **Slope ($y^2-x^2$)**               | **$\Delta y=\Delta x\cdot \text{Slope}$** |
 | ----- | ----- | ------ | ----------------------------------- | ----------------------------------------- |
