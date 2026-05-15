@@ -22,7 +22,7 @@ We classify the equations on three axes
 
 + Degree of the equation - basically the highest differential power present in the equation
 
-+ Linear Vs nonlinear - If there exists higher powers of the dependent variable or the dependent variable is present in non linear functions such as $ e^v ,\sin v,\cos v $ etc
++ Linear Vs nonlinear - If there exists higher powers of the dependent variable or the dependent variable is present in non linear functions such as $e^v ,\sin v,\cos v$ etc
 
 ###### Examples:
 
