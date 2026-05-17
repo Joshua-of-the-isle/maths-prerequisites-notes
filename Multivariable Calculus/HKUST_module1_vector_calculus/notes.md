@@ -371,13 +371,20 @@ $$
 \end{cases}
 $$
 
-$i, j $ can be from 1,2,3 so there are 9 different inputs the delta can take
+$i, j$ can be from 1,2,3 so there are 9 different inputs the delta can take
 
 
 
 **Levi Civita symbol**
 
-$\epsilon_{ijk}=\begin{cases} 1, \; if \ cyclic \ permutation\ (1,2,3),(2,3,1), (3,1,2) \\ -1, \; if \ anti-cyclic \ permutation \ (3,2,1),(1,3,2),(2,1,3) \\ 0, else\end{cases}$
+$$
+\epsilon_{ijk} =
+\begin{cases}
+1 & \text{if } (i,j,k) \text{ is a cyclic permutation of } (1,2,3) \\
+-1 & \text{if } (i,j,k) \text{ is an anti-cyclic permutation} \\
+0 & \text{otherwise}
+\end{cases}
+$$
 
 There are 27 different inputs for the levi-civita symbol
 
