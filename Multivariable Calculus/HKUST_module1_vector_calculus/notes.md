@@ -36,7 +36,7 @@ $v_1 + v_2 = v_{result}=(2-1) \hat i+ (3-4) \hat j +(4+4) \hat k$
 
 $v_{result}=1 \hat i+ -1 \hat j +8 \hat k$
 
-![Vector_addition](C:\Users\joshd\Documents\Programming\maths-prerequisites-notes\Multivariable%20Calculus\HKUST_module1_vector_calculus\images\vector_addition.jpeg)
+![vector_addition](images/vector_addition.jpeg)
 
 #### Scalar Multiplication
 
