@@ -16,7 +16,7 @@ Well the concept of vectors are very simple to grasp, they're simply representat
 
 #### What is its magnitude ?
 
-Given a vector $ 1 \hat i +2 \hat j$ the magnitude is simply $ \sqrt{1^2 +2^2}$ this apply to **All dimensionality** vectors, simply take the square root of the squares  of all elements of the vector of n dimensions.
+Given a vector $1 \hat i +2 \hat j$ the magnitude is simply $\sqrt{1^2 +2^2}$ this apply to **All dimensionality** vectors, simply take the square root of the squares  of all elements of the vector of n dimensions.
 
 #### What is its direction?
 
@@ -58,7 +58,7 @@ $v_{result}=3 \hat i+ 7 \hat j$
 
 
 
-![vector_subtraction](C:\Users\joshd\Documents\Programming\maths-prerequisites-notes\Multivariable%20Calculus\HKUST_module1_vector_calculus\images\vector_subtraction.jpeg)
+![vector_subtraction](images/vector_subtraction.jpeg)
 
 ###### 
 
@@ -90,7 +90,7 @@ $v_{result}=-2 \hat i+ -12 \hat j +16 \hat k$
 
 The dot product has a physical interpretation **IN ALL DIMESNIONS** in **general** it can be thought to measure the similarity between between two vectors, it very often used in vector DBs, clustering analysis etc *DWM flashbacks*. In two dimensions it can actually be thought to be the the area of the parallelogram formed by the two vectors that are multiplied together. 
 
-![dot_interpretation](C:\Users\joshd\Documents\Programming\maths-prerequisites-notes\Multivariable%20Calculus\HKUST_module1_vector_calculus\images\dot_product.jpeg)
+![dot_interpretation](images/dot_product.jpeg)
 
 $\vec{V_1}$ vector has a magnitude $|\vec{V_1}|$
 
@@ -230,7 +230,7 @@ notice that the non-present unit vector is always produced, and if the conventio
 
 **We know that $cross \ product= determinant \quad AND \quad that \ if \ we \ change \ the \ of \ the \ determinant \ we \ get \ its \ negative $**
 
-so getting $ i \times j = k$ if we switch the places then the the rows of the determinant will be swapped leading to a negative version of the answer so we get $ j \times i = -k$
+so getting $i \times j = k$ if we switch the places then the the rows of the determinant will be swapped leading to a negative version of the answer so we get $j \times i = -k$
 
 
 
@@ -254,7 +254,7 @@ $\vec{r}=\vec{r_0}+\vec{u}t$
 
 we can think of $u$ being like a slider and $t$ telling us how much to slide that slider along the direction of the line. An illustration will make it more clearer. 
 
-![lines_formula](C:\Users\joshd\Documents\Programming\maths-prerequisites-notes\Multivariable%20Calculus\HKUST_module1_vector_calculus\images\line_formula.jpeg)
+![lines_formula](images/line_formula.jpeg)
 
 ###### Example
 
@@ -471,7 +471,7 @@ Now we are ready to prove the identities.
 
 This actually has an interpretable physical meaning, it is the volume of a parallelopiped:
 
-![prallelopiped](C:\Users\joshd\Documents\Programming\maths-prerequisites-notes\Multivariable%20Calculus\HKUST_module1_vector_calculus\images\volume_parallelepiped.png)
+![prallelopiped](images\volume_parallelepiped.png)
 
 $\vec{A} \cdot (\vec{B} \times \vec{C}) = \vec{C} \cdot (\vec{A} \times \vec{B}) = \vec{B} \cdot (\vec{C} \times \vec{A})$
 
