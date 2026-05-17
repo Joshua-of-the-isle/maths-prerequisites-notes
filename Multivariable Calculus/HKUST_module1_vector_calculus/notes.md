@@ -363,7 +363,13 @@ To prove these identities we will require the Levi civita and the Kronecker delt
 
 **Kronecker Delta**
 
-$\delta_{ij}=\begin{cases} 1, \ if \; i=j; \\ 0, \; if \ i\ne j; \end{cases}$
+$$
+\delta_{ij} =
+\begin{cases}
+1 & \text{if } i = j \\
+0 & \text{if } i \ne j
+\end{cases}
+$$
 
 $i, j $ can be from 1,2,3 so there are 9 different inputs the delta can take
 
