@@ -471,7 +471,7 @@ Now we are ready to prove the identities.
 
 This actually has an interpretable physical meaning, it is the volume of a parallelopiped:
 
-![prallelopiped](images\volume_parallelepiped.png)
+![prallelopiped](images\volume_parallelepiped.jpeg)
 
 $\vec{A} \cdot (\vec{B} \times \vec{C}) = \vec{C} \cdot (\vec{A} \times \vec{B}) = \vec{B} \cdot (\vec{C} \times \vec{A})$
 
