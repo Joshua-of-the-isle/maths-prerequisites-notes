@@ -168,13 +168,27 @@ Okay here the interpretation is a bit more difficult, **its the cross product of
 
 $u=u_x\hat i +u_y\hat j +u_k\hat k$
 
-$\nabla \times u =  \begin{vmatrix} \hat i & \hat j & \hat k \\ \frac{\partial}{\partial x} & \frac{\partial}{\partial y} & \frac{\partial}{\partial z} \\ u_x & u_y & u_z \end{vmatrix}$
+$$
+\nabla \times \mathbf{u} =
+\begin{vmatrix}
+\mathbf{i} & \mathbf{j} & \mathbf{k} \\
+\partial_x & \partial_y & \partial_z \\
+u_x & u_y & u_z
+\end{vmatrix}
+$$
 
 ###### Example
 
 $u=xy\hat i +y\hat j +z\hat k$
 
-$\nabla \times u = \begin{vmatrix} \hat i & \hat j & \hat k \\ \frac{\partial}{\partial x} & \frac{\partial}{\partial y} & \frac{\partial}{\partial z} \\ xy & yz & xz \end{vmatrix}$
+$$
+\nabla \times \mathbf{u} =
+\begin{vmatrix}
+\mathbf{i} & \mathbf{j} & \mathbf{k} \\
+\partial_x & \partial_y & \partial_z \\
+xy & yz & xz
+\end{vmatrix}
+$$
 
 $\nabla \times u = 0$
 
@@ -230,9 +244,19 @@ $[\nabla \times f \vec{u}]_{\text{i}}$
 
 $\epsilon_{ijk} \frac{\partial}{\partial x_{j}} f \vec{U}_{k}$
 
-$\epsilon_{ijk} f \frac{\partial \vec{U}_{k}}{\partial x_{j}} + \epsilon_{ijk} \vec{U}_{k} \frac{\partial f}{\partial x_{j}}$
+$$
+\epsilon_{ijk}\, f \, \frac{\partial U_k}{\partial x_j}
+\;+\;
+\epsilon_{ijk}\, U_k \, \frac{\partial f}{\partial x_j}
+$$
 
-$[f \nabla \times u]_{\text{i}} + [\nabla f \times U]_{\text{i}}$
+
+
+$$
+\bigl(f \, \nabla \times \mathbf{U}\bigr)_i
+\;+\;
+\bigl(\nabla f \times \mathbf{U}\bigr)_i
+$$
 
 $f \nabla \times u + \nabla f \times U$
 
@@ -250,6 +274,10 @@ $\epsilon_{ijk} v_{k} \frac{\partial}{\partial x_{i}} u_{j} + \epsilon_{ijk} U_{
 
 $V_{k} \epsilon_{ijk} \frac{\partial}{\partial x_{i}} U_{j} - U_{j} \epsilon_{jik} \frac{\partial}{\partial x_{i}} V_{k}$
 
-$V_{k} \cdot (\nabla \times u)_{k} - U_{j} (\nabla \times v)_{j}$
+$$
+V_k (\nabla \times \mathbf{U})_k
+\;-\;
+U_j (\nabla \times \mathbf{V})_j
+$$
 
 $V (\nabla \times u) - U (\nabla \times v)$
