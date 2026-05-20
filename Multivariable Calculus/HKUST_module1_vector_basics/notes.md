@@ -56,8 +56,6 @@ $v_{result}=3 \hat i+ 7 \hat j +0 \hat k$
 
 $v_{result}=3 \hat i+ 7 \hat j$
 
-
-
 ![vector_subtraction](images/vector_subtraction.jpeg)
 
 ###### 
@@ -69,10 +67,6 @@ $v_{result}=3 \hat i+ 7 \hat j$
 + **Associativity :** $\vec{A}+(\vec{B}+\vec{C})=(\vec{A}+\vec{B})+\vec{C}$
 
 + **Distributivity of scalar multiplication :** $k(\vec{A}+\vec{B})=k\vec{B}+k\vec{A}$
-
-
-
-
 
 #### Dot product
 
@@ -151,8 +145,6 @@ $= v_1 \cdot v_2 + v_1 \cdot v_3$
 
 #### 
 
-
-
 #### Cross product
 
 The cross product is a more complicated product, it is taken by arranging the two vectors into a determinant and putting the $\hat i, \hat j, \hat k$ values in the top row, the $a_1, a_2, a_3$ values in the middle and the $b_1, b_2, b_3$  values in the bottom
@@ -180,8 +172,6 @@ $= 28\hat i - 12\hat j - 5\hat k$
 
 The cross product unlike the dot product is **Only interpretable and applies to vectors with three dimensions** , and is the vector **whose direction is perpendicular to the plane formed by the two input vectors** and whose magnitude is **Equal to the parallelogram formed by the two inputs.** 
 
-
-
 **For the physical interpretation of the cross product, we assume that $V_1$ lies on an axis & $V_2$ is 2 dimensional.**
 
 $\vec{V_1} = |\vec{V_1}| \hat{i}$
@@ -206,15 +196,9 @@ $\Rightarrow |\vec{V_1}| |\vec{V_2}| \sin \theta$
 
 **Therefore the greater the angle of separation, the greater the magnitude for the cross product, this fits in with the physical interpretation since as $\theta$ increases area of parallelogram increases & so does the magnitude of cross product.**
 
-
-
 Now since $sin(x) = 1$ when $x$ is $90^o$ and it is equal to $0$ when x is $0$ we get the opposite of dot product, if the inputs are perpendicular then the results magnitude is the product of the magnitudes but if it is parallel it is $0$ however the cross product unlike the dot product **is a vector product so it has both direction and magnitude **
 
-
-
 $i \times i = j \times j = k \times k =0 $
-
-
 
 But 
 
@@ -232,8 +216,6 @@ notice that the non-present unit vector is always produced, and if the conventio
 
 so getting $i \times j = k$ if we switch the places then the the rows of the determinant will be swapped leading to a negative version of the answer so we get $j \times i = -k$
 
-
-
 ###### Properties of the cross product (derived from determinants)
 
 + **Commutativity :** $\vec{A} \times \vec{B}=- \vec{B} \times \vec{A}$
@@ -241,8 +223,6 @@ so getting $i \times j = k$ if we switch the places then the the rows of the det
 + **Distributivity over vector addition:** $\vec{A} \times (\vec{B} + \vec{C})=\vec{A} \times \vec{B} + \vec{A} \times \vec{C}$
 
 + **Distributivity of scalar multiplication over cross :** $\vec{k}(\vec{A} \times \vec{B})=\vec{k}\vec{B} \times  \vec{A}=\vec{B} \times \vec{k}\vec{A}$
-
-
 
 ## Analytic Geometry
 
@@ -270,17 +250,11 @@ $\vec{r}= 5 \hat i +-3 \hat j +8 \hat k \quad + \quad t(12 \hat i +-10 \hat j +1
 
 $\vec{r}=(5+12t)\hat i +(-3-10t)\hat j +(8+17t)\hat k$
 
-
-
 now putting $z=0$ we get
 
 $t=\frac{-8}{17}$
 
 $(\frac{-11}{17}, 1\frac{12}{17}, 0)$
-
-
-
-
 
 #### Of planes
 
@@ -293,8 +267,6 @@ which simplifies to
 $ax+by+cd=0$
 
 Basically a point on the plane's difference with another point will produce a line that lies on the plane, and the lines dot product with $\vec{N}$ will always be 0 since they are perpendicular and $cos(90)=0$ 
-
-
 
 ###### Example
 
@@ -353,10 +325,6 @@ So,
 
 $\vec{r}=t\hat i+\frac{300-83t}{26}\hat j+0\hat k$
 
-
-
-
-
 ## Vector Identities
 
 To prove these identities we will require the Levi civita and the Kronecker delta identities, they go from 1 to 3 in their indices and are defined as-
@@ -373,8 +341,6 @@ $$
 
 $i, j$ can be from 1,2,3 so there are 9 different inputs the delta can take
 
-
-
 **Levi Civita symbol**
 
 $$
@@ -387,8 +353,6 @@ $$
 $$
 
 There are 27 different inputs for the levi-civita symbol
-
-
 
 **Einstein notation**
 
@@ -405,8 +369,6 @@ $\epsilon_{ijk}=0$
 $\epsilon_{ijk}\epsilon_{ijk}=6$
 
 etc
-
-
 
 #### Proofs
 
