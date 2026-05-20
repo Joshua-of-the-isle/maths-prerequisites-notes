@@ -128,6 +128,20 @@ $\frac{df}{dt} = 15t^{2} + 30t$
 
 You can verify by taking directly
 
+#### Triple product rule:
+
+This rule simply states that if we have:
+
+$f(x,y,z)=0$
+
+then 
+
+$\frac{\partial x}{\partial y} \frac{\partial y}{\partial z} \frac{\partial z}{\partial x}=-1$
+
+
+
+
+
 ## Del Operator
 
 The del operator is extremely simple, it is just defined as this: 
@@ -249,8 +263,6 @@ $$
 \;+\;
 \epsilon_{ijk}\, U_k \, \frac{\partial f}{\partial x_j}
 $$
-
-
 
 $$
 \bigl(f \, \nabla \times \mathbf{U}\bigr)_i
