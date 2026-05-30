@@ -192,7 +192,6 @@ $$
 $u=xy\hat i +y\hat j +z\hat k$
 
 $$
-
 \nabla \times \mathbf{u} =
 \begin{vmatrix}
 \mathbf{i} & \mathbf{j} & \mathbf{k} \\
