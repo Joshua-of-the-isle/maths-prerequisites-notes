@@ -138,10 +138,6 @@ then
 
 $\frac{\partial x}{\partial y} \frac{\partial y}{\partial z} \frac{\partial z}{\partial x}=-1$
 
-
-
-
-
 ## Del Operator
 
 The del operator is extremely simple, it is just defined as this: 
@@ -196,12 +192,14 @@ $$
 $u=xy\hat i +y\hat j +z\hat k$
 
 $$
+
 \nabla \times \mathbf{u} =
 \begin{vmatrix}
 \mathbf{i} & \mathbf{j} & \mathbf{k} \\
 \partial_x & \partial_y & \partial_z \\
 xy & yz & xz
 \end{vmatrix}
+
 $$
 
 $\nabla \times u = 0$
@@ -258,17 +256,13 @@ $[\nabla \times f \vec{u}]_{\text{i}}$
 
 $\epsilon_{ijk} \frac{\partial}{\partial x_{j}} f \vec{U}_{k}$
 
-$$
-\epsilon_{ijk}\, f \, \frac{\partial U_k}{\partial x_j}
+$\epsilon_{ijk}\, f \, \frac{\partial U_k}{\partial x_j}
 \;+\;
-\epsilon_{ijk}\, U_k \, \frac{\partial f}{\partial x_j}
-$$
+\epsilon_{ijk}\, U_k \, \frac{\partial f}{\partial x_j}$
 
-$$
-\bigl(f \, \nabla \times \mathbf{U}\bigr)_i
+$\bigl(f \, \nabla \times \mathbf{U}\bigr)_i
 \;+\;
-\bigl(\nabla f \times \mathbf{U}\bigr)_i
-$$
+\bigl(\nabla f \times \mathbf{U}\bigr)_i$
 
 $f \nabla \times u + \nabla f \times U$
 
@@ -286,10 +280,8 @@ $\epsilon_{ijk} v_{k} \frac{\partial}{\partial x_{i}} u_{j} + \epsilon_{ijk} U_{
 
 $V_{k} \epsilon_{ijk} \frac{\partial}{\partial x_{i}} U_{j} - U_{j} \epsilon_{jik} \frac{\partial}{\partial x_{i}} V_{k}$
 
-$$
-V_k (\nabla \times \mathbf{U})_k
+$V_k (\nabla \times \mathbf{U})_k
 \;-\;
-U_j (\nabla \times \mathbf{V})_j
-$$
+U_j (\nabla \times \mathbf{V})_j$
 
 $V (\nabla \times u) - U (\nabla \times v)$
