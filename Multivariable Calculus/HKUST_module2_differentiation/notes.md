@@ -198,7 +198,6 @@ $$
 \partial_x & \partial_y & \partial_z \\
 xy & yz & xz
 \end{vmatrix}
-
 $$
 
 $\nabla \times u = 0$
