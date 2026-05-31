@@ -10,7 +10,7 @@
 
 #### 
 
-#### Section 1.1 (Textbook)
+## Section 1.1 (Textbook)
 
 **Q20.** Show that $l_1(t) = (1, 2, 3) + t(1, 0, -2)$ and $l_2(t) = (2, 2, 1) + t(-2, 0, 4)$ parametrize the same line.
 
@@ -108,7 +108,7 @@ Line: $l(t) = (1, 0, 0) + t(0, 1, 1)$.
 
 
 
-#### Section 1.2
+## Section 1.2
 
 **Q12.** Let $v = (2, 3)$. Suppose $w$ is perpendicular to $v$ and that $\|w\| = 5$. Find one such $w$.
 
@@ -236,7 +236,7 @@ This equals the sum of the squares of the four sides ($a, b, a, b$). QED.
 
 
 
-#### Section 1.3
+## Section 1.3
 
 **Q15.** Find an equation for a plane that:
 
@@ -320,7 +320,7 @@ Equation: $10(x+1) - 17(y-1) + 1(z-2) = 0 \Rightarrow 10x - 17y + z + 25 = 0$.
 
 
 
-#### Section 2.1
+## Section 2.1
 
 **Q8** Sketch level sets of values c = 0, 1, 4, 9 for both f (x, y) = x2 + y2 and g(x, y) = x2 + y2. How are the graphs of f and g different? How are their sections different?
 
